@@ -34,4 +34,3 @@ def login(request):
     else:
         form = LoginForm()
         return render(request,'login.html',{'form':form})
-print("end")
